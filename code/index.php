@@ -1,4 +1,5 @@
-o "<h1> This is the Three Tier Architecture Test New Mytest</h1>";
+?php
+echo "<h1> This is the Three Tier Architecture Test New Mytest</h1>";
 echo "<h3> Your Web Running Apache with php on Frontend container </h3>";
 echo "<h3> Your APP Running Test  Apache and PHP providing API services for User information on url http://backend/get_user_details </h2>";
 echo "<h3> Your Database running Mysql/Mariadb holding user information in userdb on users Table </h1>";
@@ -51,25 +52,3 @@ foreach($candl_backend_array as $value)
         echo "==========================================="."<br>";
 }
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
