@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: myappfe
-        image: laxmiudaseen/mywebapp0508:1.0
+        image: IMAGE #laxmiudaseen/mywebapp0508:1.0
         imagePullPolicy: Always
         ports:
         - containerPort: 80
